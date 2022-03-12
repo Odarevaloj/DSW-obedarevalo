@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design</title>
+</head>
+<body>
+    <header>
+        <h1>Aprediendo sobre: Flex Box, Listas y enlaces</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>Inicio</li>
+            <li>Temas
+                <ul>
+                    <li>Tema 1</li>
+                    <li>Tema 2</li>
+                </ul>
+            </li>
+            <li>Recursos Digitales
+                <ul>
+                    <li>Recurso 1</li>
+                    <li>Recurso 2</li>
+                </ul>
+            </li>
+            <li>Aprendizaje
+                <ul>
+                    <li>Actividad 1</li>
+                    <li>Actividad 2</li>
+                </ul>
+            </li>
+            <li>A cerca de</li>
+        </ul>
+    </nav>
+    <section>
+        <h3>Propósito</h3>
+        <p>
+            Este sitio ha sido creado para brindar información de los temas relacionados en el título.
+        </p>
+    </section>
+    <article>
+        <h3>Flex Box</h3>
+        <img src="img/FlexBox.jpg" alt="">
+        <p>El módulo de diseño de caja flexible, más conocido como flexbox , es una herramienta poderosa para crear diseños con CSS. No es tan poderoso como CSS Grid, que veremos en el Capítulo 12 , pero puede resolver muchos problemas de diseño. Flexbox es un diseño unidimensional que puede diseñar elementos tanto horizontal como verticalmente (pero no ambos). Un elemento que usa flexbox como su diseño se denomina contenedor flexible , y los elementos dentro de él son elementos flexibles .</p>
+
+        <p>Attardi, J. (2020). Caja flexible. En Modern CSS (págs. 205-228). Apress, Berkeley, CA.
+            
+            https://link.springer.com/chapter/10.1007/978-1-4842-6294-8_10
+        </p>
+            
+    </article>
+    <ARTicle>
+        <h3>Listas y Enlaces</h3>
+        <img src="img/Listas.gif" alt="">
+        <p>
+            Según Rafael Menéndez-Barzanallana Asensio. Departamento Informática y Sistemas. Universidad de Murcia (2014), Existen varios tipos de listas en HTML. Todas ellas se pueden meter unas dentro de otras formando árboles. Todos los tipos siguen el siguiente formato:
+        </p>
+        <img src="img/Lista1.PNG" alt="">
+        <p>
+            tipo_lista puede ser una de las siguientes: DIR, DL, MENU, OL y UL.
+
+Listas desordenadas La etiqueta <UL> nos permite presentar listas de elementos sin orden alguno. Cada elemento de la lista irá normalmente precedido por un círculo. Por ejemplo,
+        </p>
+        <img src="img/Lista2.PNG" alt="">
+        <p>
+            se verá como
+Primer elemento
+
+Segundo elemento
+
+La etiqueta < UL > admite estos parámetros:
+
+        </p>
+        <img src="img/Lista3.PNG" alt="">
+        <p>
+            También son listas desordenadas aquellas que utilizan las etiquetas < DIR > y < MENU >. En principio tenían como propósito representar una lista estilo directorio (multicolumna) o tipo menú (una sola columna). En la práctica los navegadores lo han implementado como sinonimos de < UL >.
+
+                Listas ordenadas
+                
+                La etiqueta < OL > nos permite presentar listas de elementos ordenados de menor a mayor. Normalmente cada elemento de la lista irá precedido por su número en el orden. Por ejemplo:
+                
+        </p>
+        <img src="img/Lista4.PNG" alt="">
+        <p>
+            se verá como
+1. Primer elemento
+2. Segundo elemento
+La etiqueta < OL > admite estos parámetros:
+        </p>
+<img src="img/Lista5.PNG" alt="">
+
+<h1>Listas de definiciones</h1>
+<p>
+    Este es el único tipo de lista que no utiliza la etiqueta < LI >. Al tener como objetivo presentar una lista de definiciones, de modo que tiene que representar de manera distinta el objeto definido y la definición. Esto se hace por medio de las etiquetas < DT > y < DD >:
+</p>
+<img src="img/Lista6.PNG" alt="">
+
+<h3>Enlaces</h3>
+<p>
+    Las siglas HTML significan HyperText Markup Language, lo que para nosotros quiere decir que es un lenguaje para hipertexto. Existen múltiples formatos de hipertexto (por ejemplo, los ficheros de ayuda de algunos programas).
+
+    Un enlace es una zona de texto o gráficos que si son seleccionados nos trasladan a otro documento de hipertexto o a otra posición dentro del documento actual. Siendo HTML el lenguaje habitual en internet, la diferencia que posee con respecto a otros tipos de hipertexto es que ese otro documento puede estar físicamente en la otra punta del planeta. Son los enlaces lo que hacen de la telaraña o World Wide Web lo que es.
+</p>
+
+<h3>La etiqueta < A ></h3>
+
+<p>
+    Para incorporar un enlace hay que utilizar esta etiqueta. Todo lo que encerremos entre <A> y </A>, ya sea texto o imágenes, será considerado como enlace y sufrirá dos modificaciones:
+Se visualizará de manera distinta en el navegador. El texto aparecerá habitualmente subrayado y de un color distinto al habitual, y las imágenes estarán rodeadas por un borde del mismo color que el del texto del enlace.
+</p>
+
+<p>
+    Al pulsar sobre el enlace, seremos enviados al documento que apuntaba el enlace.
+
+Para que el enlace sirva para algo debemos especificarle una dirección. Lo haremos de la siguiente manera: < A HREF="direccion">Pulsar aquí</ A >
+
+La dirección estará en formato URL (Uniform Resource Locator).
+
+Las URLs
+
+Una URL nos indica tanto una dirección de Internet como el servicio que esperamos nos ofrezca el servidor al que corresponde la dirección. Tiene el siguiente formato:
+
+servicio://máquina:puerto/ruta/fichero@usuario
+</p>
+
+Donde el servicio podrá ser uno de los siguientes:
+
+<nav>
+    <ul>
+        <li>http</li>
+        <p>
+            Es el servicio invocado para transmitir páginas web y el que usaremos normalmente en los enlaces.
+        </p>
+        <li>https</li>
+        <p>
+            Es una innovación sobre el anterior, que nos permite acceder a servidores seguros, que nos ofrecen el uso de técnicas de enciptación para proteger los datos que intercambiemos con él de terceras personas. Por ejemplo, operaciones con bancos o acceso a SUMA en la universidad de Murcia.
+        </p>
+        <li>ftp</li>
+        <p>
+            Permite trasmitir ficheros desde servidores de ftp anónimo. Si no le pedimos un fichero sino un directorio, en general el navegador se encargará de mostrarnos el contenido del mismo para que podamos escogerlo cómodamente. Utilizando la @ podremos acceder a servidores privados, donde es preciso disponer de clave y palabra de paso.
+        </p>
+        <li>mailto</li>
+        <p>
+            Para poder mandar un mensaje de correo electrónico.
+        </p>
+        <li>news</li>
+        <p>
+            Para poder acceder a foros de discusión (grupos de noticias). Se indica el servidor y el grupo. Por ejemplo news://news.ibernet.es/es.comp.demos nos conectaría con el foro es.comp.demos en el servidor nacional de Telefónica.
+        </p>
+        <li>telnet</li>
+        <p>
+            No es implementado generalmente por los navegadores, que suelen invocar un programa externo. Nos permite conectarnos con otros ordenadores y entrar en ellos como si nuestro ordenador fuese una terminal del mismo. Habitualmente se requiere el acceso con claves
+        </p>
+    </ul>
+</nav>
+<p>
+    La dirección de la máquina puede ser, o bien una serie de cuatro números entre 0 y 255 (ej. 123.3.5.65) o bien algo más fácil de recordar como es una serie de palabras separadas por puntos (www.um.es). El puerto generalmente no se indica, ya que el servicio predetermina uno.
+</p>
+<p>
+    La ruta es una serie de directorios separados por el símbolo /, que es el utilizado en LINUX (el sistema operativo más extendido en los servidores de Internet). Existe otro formato de URL. Cuando queremos acceder a un fichero situado en la misma máquina que la página web que estamos creando podemos utilizar este formato, ruta_relativa/fichero En la ruta relativa podremos utilizar dos puntos (..) para acceder al directorio padre o comenzar con la barra diagonal (/) para acceder a una ruta absoluta dentro de nuestro ordenador.
+</p>
+    </ARTicle>
+    <footer>obedavid_91@hotmail.com     Skype: OBEDAVID91    Actualizado: 12 de Marzo de 2022</footer>
+
+    <h3>Moqup Seleccionado</h3>
+
+    <img src="img/moqup.PNG" alt="Moqup Selecionado">
+
+    <a href="file:///C:/Users/AREVALO/Documents/GitHub/DSW-obedarevalo/index.html">Ir a la Página Creada en la Fase 1</a>
+</body>
+</html>
