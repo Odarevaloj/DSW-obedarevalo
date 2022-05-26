@@ -1,0 +1,114 @@
+header{
+    text-align: center;
+    background-color: #005555;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+nav{
+    background-color: #069A8E;
+}
+<link href="style.css" rel="stylesheet" type="text/css" />
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.grid{
+	background-color: #A1E3D8;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	text-align: center;
+	padding: 1em;
+}
+.div{
+	padding: 1em;
+}
+body{
+	background: #069A8E;
+}
+
+header{
+	width: 100%;
+}
+
+.navegacion{
+	width: 1000px;
+	margin: 10px auto;
+	background: #fff;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #cf0e00;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #005555;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+#logo{
+	width: 10px;
+	float: left;
+	margin-top: 20px;	
+}
+Footer{
+	background-color: #F7FF93;
+	color: rgb(0, 0, 0);
+	padding: 5px;
+}
+section{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding: 10px auto;
+}
+article{
+	padding: 2px;
+	grid-column: 2/3;
+}
+.face{
+	grid-column: 2/3;
+}
+
+
+
+
+
